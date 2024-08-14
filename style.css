@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+#productos, #carrito {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px;
+}
+
+#productos {
+    width: 100%;
+}
+
+.contenedor {
+    width: 200px;
+    background-color: #eb919134;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+.imagen {
+    width: 100%;
+    height: auto;
+}
+
+.boton {
+    display: block;
+    margin: 10px 0;
+    padding: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
